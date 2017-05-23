@@ -14,8 +14,6 @@ if (isset($_FILES['file'])) {
           $msg = 'Erreur lors du téléversement. 1';
         }
       } else {
-        // Upload le fichier quelque part où les autres équipes pourront pas retrouver
-        $folderid = bin2hex(openssl_random_pseudo_bytes(16));
         $uploadfile = '../img/' . basename($_FILES['file']['name']);
 
         if (move_uploaded_file($_FILES['file']['tmp_name'], $uploadfile)) {
