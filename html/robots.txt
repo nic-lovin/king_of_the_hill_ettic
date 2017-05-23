@@ -1,0 +1,2 @@
+User-agent: *
+Disallow: /my_s3cr3t_4dmin_p4th/
