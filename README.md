@@ -1,4 +1,5 @@
 ### Attention, dirty code!  
+Le code a été développé rapidement et peut contenir des incohérences/fichiers inutiles.  
 Code basé sur dépôt: https://github.com/ppepos/drunken-shame/tree/master/containers/web1, lui-même basé sur https://hub.docker.com/r/tutum/lamp/.
     
 ### King of the hill par Ettic dans le cadre d'un évènement pré-Northsec  
